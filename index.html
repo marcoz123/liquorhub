@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liquor Orders - Malappuram</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional inline CSS for demo purposes */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #1f3c56, #2c5570);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        header {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            color: #fff;
+        }
+
+        header .logo {
+            font-size: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        header nav a {
+            color: #fff;
+            margin-right: 20px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        header nav a:hover {
+            color: #f39c12;
+        }
+
+        .main-content {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .main-content h1 {
+            font-size: 50px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-in;
+        }
+
+        .main-content p {
+            font-size: 20px;
+            margin-bottom: 40px;
+            opacity: 0.8;
+            animation: fadeIn 3s ease-in;
+        }
+
+        .cta-btn {
+            padding: 15px 40px;
+            background-color: #f39c12;
+            color: #fff;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            background-color: #e67e22;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            width: 100%;
+            font-size: 14px;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Liquor Orders</div>
+        <nav>
+            <a href="menu.html">Menu</a>
+            <a href="#">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <h1>Welcome to Malappuram Liquor Orders</h1>
+        <p>Order your favorite drinks with just a few clicks. We offer fast delivery right to your door!</p>
+        <a href="menu.html" class="cta-btn">Browse the Menu</a>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Liquor Orders - Malappuram | All Rights Reserved</p>
+    </div>
+
+</body>
+</html>
+
